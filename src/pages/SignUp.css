@@ -1,0 +1,12 @@
+.signup-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .signup-page form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }

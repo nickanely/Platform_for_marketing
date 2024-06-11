@@ -1,0 +1,306 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Navbar Styles */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 1em;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1em;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  nav input {
+    padding: 0.5em;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  /* Signup Styles */
+  .signup {
+    background-color: white;
+    padding: 2em;
+    border-radius: 10px;
+    margin: 2em auto;
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .signup h2 {
+    margin-bottom: 1em;
+  }
+  
+  .signup form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .signup input {
+    margin-bottom: 1em;
+    padding: 0.5em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .signup button {
+    padding: 0.5em;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .signup button:hover {
+    background-color: #555;
+  }
+  
+  /* Gallery Styles */
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2em;
+  }
+  
+  /* Product Card Styles */
+  .product-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 1em;
+    margin: 1em;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+  }
+  
+  .product-card h3 {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+  }
+  
+  .product-card p {
+    margin: 0.5em 0;
+  }
+  
+  .product-card span {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    padding: 0.2em 0.5em;
+    border-radius: 5px;
+  }
+  
+  input[type="text"] {
+    padding: 0.5em;
+    margin: 2em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: calc(100% - 4em);
+    max-width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Product Details Styles */
+  .product-details {
+    background-color: white;
+    padding: 2em;
+    border-radius: 10px;
+    margin: 2em auto;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .product-details img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+  }
+  .profile-card {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 2em;
+    margin: 2em auto;
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .profile-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 1em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-card h2, .profile-card p {
+    margin: 0.5em 0;
+    text-align: center;
+  }
+  
+  .profile-card h3 {
+    margin-top: 1em;
+  }
+  
+  /* Contact Form Styles */
+  form {
+    background-color: white;
+    padding: 2em;
+    border-radius: 10px;
+    margin: 2em auto;
+    max-width: 500px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form input, form textarea {
+    margin-bottom: 1em;
+    padding: 0.5em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  form button {
+    padding: 0.5em;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #555;
+  }
+  
+  /* Utility Styles */
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1em 0;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .margin-bottom {
+    margin-bottom: 2em;
+  }
+  
+  /* Cart Styles */
+  .cart {
+    background-color: white;
+    padding: 2em;
+    border-radius: 10px;
+    margin: 2em auto;
+    max-width: 500px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cart h2 {
+    margin-bottom: 1em;
+  }
+
+  .cart ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .cart li {
+    margin-bottom: 1em;
+  }
+
+  .cart button {
+    padding: 0.5em;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+  }
+
+  .cart button:hover {
+    background-color: #555;
+  }
+  .cart {
+    background-color: white;
+    padding: 2em;
+    border-radius: 10px;
+    margin: 2em auto;
+    max-width: 500px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cart h2 {
+    margin-bottom: 1em;
+  }
+  
+  .cart ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .cart li {
+    margin-bottom: 1em;
+  }
+  
+  .cart button {
+    padding: 0.5em;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .cart button:hover {
+    background-color: #555;
+  }
