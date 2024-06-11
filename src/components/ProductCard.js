@@ -9,10 +9,11 @@ function ProductCard({ product, addToCart }) {
 
   return (
     <div className="product-card">
+        {product.onSale && <span>Sale</span>}
       <img src={product.image} alt={product.name} />
       <h3>{product.name}</h3>
       <p>{product.price} USD</p>
-      {product.onSale && <span>Sale</span>}
+      
       <Link to={`/product/${product.id}`}>{translations.viewDetails}</Link>
       <button onClick={() => addToCart(product)}>{translations.addToCart}</button>
     </div>

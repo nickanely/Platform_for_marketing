@@ -10,3 +10,30 @@
     flex-direction: column;
     gap: 10px;
   }
+  
+  .login-page input {
+    padding: 10px;
+    border: 1px solid #e63946;
+    border-radius: 4px;
+    background-color: #f8e1e3;
+    transition: border-color 0.2s ease-in-out;
+  }
+  
+  .login-page input:focus {
+    border-color: #e63946;
+  }
+  
+  .login-page button {
+    background-color: #e63946;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .login-page button:hover {
+    background-color: #c72837;
+  }
+  

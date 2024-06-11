@@ -13,6 +13,13 @@
   .sort-select {
     margin-bottom: 20px;
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #e63946;
     border-radius: 4px;
+    background-color: #f8e1e3;
+    transition: border-color 0.2s ease-in-out;
   }
+  
+  .sort-select:focus {
+    border-color: #e63946;
+  }
+  

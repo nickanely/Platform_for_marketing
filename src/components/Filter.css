@@ -1,7 +1,13 @@
 .filter-input {
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #e63946;
     border-radius: 4px;
     margin-bottom: 20px;
+    background-color: #f8e1e3;
+    transition: border-color 0.2s ease-in-out;
+  }
+  
+  .filter-input:focus {
+    border-color: #e63946;
   }
   
